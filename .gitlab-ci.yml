@@ -1,0 +1,10 @@
+image:  python: latest
+
+  pages:
+    script:
+      - echo "Esse é um teste (SRE_Automation) de publicação de pacote e esteira via GIT"
+      artifacts:
+        paths:
+          - public
+      only:
+          - master
